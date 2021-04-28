@@ -63,6 +63,11 @@ body{
   background-color: hsl(0, 0%, 100%);
 }
 
+.card--three .section--name,
+.card--four .section--name{
+  color: hsl(219, 29%, 14%);
+}
+
 .card--three h2,
 .card--four h2{
   color: hsl(219, 29%, 14%);
@@ -75,4 +80,19 @@ body{
 .card--five{
   grid-area: card--five;
   background-color:hsl(219, 29%, 14%);
+}
+
+
+@media (max-width:900px){
+  .grid-container{
+    display: grid;
+    grid-template-areas:
+      'card--one' 
+      'card--two'
+      'card--three'
+      'card--four'
+      'card--five'
+      ;
+      padding: 20px;
+  }
 }
