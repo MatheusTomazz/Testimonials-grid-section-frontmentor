@@ -9,10 +9,10 @@ body{
 .grid-container{
   display: grid;
   grid-template-areas:
-    'card--one  card--one card--one card--one card--two card--three card--three' 
-    'card--one  card--one card--one card--one card--two card--three card--three'
-    'card--four  card--four card--five card--five card--five card--three card--three'
-    'card--four  card--four card--five card--five card--five card--three card--three'
+    'card--one  card--one  card--one card--two card--three card--three' 
+    'card--one  card--one  card--one card--two card--three card--three'
+    'card--four card--five card--five card--five card--three card--three'
+    'card--four card--five card--five card--five card--three card--three'
     ;
   grid-gap: 20px;
 }
